@@ -4,3 +4,18 @@ body {
     color: /*#441B5F*/#6C3BCE;
     font-family: 'Inconsolata', monospace;
   }
+  a {
+    color: #6C3BCE;
+  }
+
+  a:visited {
+    color: #6C3BCE;
+  }
+
+  a:hover {
+    color: #6900CC;
+  }
+
+  a:active {
+    color: #6900CC;
+  }
