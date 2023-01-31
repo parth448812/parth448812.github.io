@@ -1,76 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ITIS3135 Parth Patel HTML Tables Home</title>
-    <p><a href = https://webpages.charlotte.edu/ppate206>Navigation Menu</a></p>
+    <title>ITIS3135 | Parth Patel | HTML Tables </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Knewave&family=Silkscreen&family=Space+Mono&display=swap" rel="stylesheet">
+<link href = "styles/default.css" rel = "stylesheet">
     <style>
-        body {
-            background: #ADEBE3;
-            color: #393E41;
-            font-family: 'Inconsolata', monospace;
+        div.contain{text-align: center}
+        ol.order{ 
+            display: inline-block;
+            text-align: left;
         }
         figure tr:nth-child(3)
         {
-            background-color: #393E41;
-            color: #ADEBE3;
+            background-color: #6C3BCE;
+            color: #F3D653;
         }
         figure tr:nth-child(4)
         {
-            background-color: #393E41;
-            color: #ADEBE3;
+            background-color: #6C3BCE;
+            color: #F3D653;
         }
         figure tr:nth-child(7)
         {
-            background-color: #393E41;
-            color: #ADEBE3;
+            background-color: #6C3BCE;
+            color: #F3D653;
         }
         figure tr:nth-child(8)
         {
-            background-color: #393E41;
-            color: #ADEBE3;
+            background-color: #6C3BCE;
+            color: #F3D653;
         }
         figure tr:nth-child(10)
         {
-            background-color: #393E41;
-            color: #ADEBE3;
+            background-color: #6C3BCE;
+            color: #F3D653;
         }
-        a {
-              color: #393E41;
-            }
-
-            a:visited {
-              color: #393E41;
-            }
-
-            a:hover {
-              color: #6900CC;
-            }
-
-            a:active {
-              color: #6900CC;
-            }
     </style>
 </head>
 <body>
     <header>
         <h1>Parth Patel HTML Tables</h1>
+        <h3>
+    <nav>
+        
+        <a target="_blank" href=index.html>Introduction</a> |
+        <a target="_blank" href=patelswebcontinuum.com>Company</a> |
+        <a target="_blank" href=forms.html>Forms</a> 
+    </nav>
+    </h3>
     </header>
+    
 <main>
     <h2>HTML Tables</h2>
         
     <h3>My Tabular Data</h3>
-        <ol>
+        <div class = "contain">
+        <ol class = "order">
             <li>John Romero - jromero32@gmail.com - 4</li>
             <li>Jessica Adams - jadams45@yahoo.com - 7</li>
-            <li>Tommy Shelby- tshelby@bing.com - 3</li>
+            <li>Tommy Shelby- tshelby74@bing.com - 3</li>
             <li>Rachel Pearson - rpearson83@hotmail.com - 11</li>
             <li>Harvey Specter - hspecter45@yahoo.com - 9</li>
             <li>Gabriel Macht - gmacht94@gmail.com - 5</li>
             <li>Mike Ross - mross69@hotmail.com - 2</li>
             <li>Miguel Diaz - mdiaz12@bing.com - 1</li>
         </ol>
+    </div>
     <h3>Employee Data in Simple Table</h3>
-        <table>
+        <table id = table1 style="border:2px solid #6C3BCE">
             <thead>
                 <tr>
                 <th>Name</th>
@@ -91,7 +90,7 @@
                 </tr>
                 <tr>
                     <td>Tommy Shelby</td>
-                    <td>tshelby@bing.com</td>
+                    <td>tshelby74@bing.com</td>
                     <td>3</td>
                 </tr>
                 <tr>
@@ -124,7 +123,7 @@
     
     <h3>Employee Data in Complex Table</h3>
     <figure>
-        <table>
+        <table id = table2 style="border:2px solid #6C3BCE">
             <thead>
                 <tr>
                 <th>Department</th>
@@ -151,7 +150,7 @@
                 <tr>
                     <td rowspan = 2>Sales</td>  
                     <td>Tommy Shelby</td>
-                    <td>tshelby@bin74g.com</td>
+                    <td>tshelby74@bing.com</td>
                     <td>3</td>
                     <td>$15,000</td>
                 </tr>
@@ -192,7 +191,7 @@
                 </tr>
                 <tr>
                     <td colspan="4">Monthly Salary Total:</td>
-                    <td>60,150</td>
+                    <td>$60,150</td>
                     
                 </tr>
             </tbody>
@@ -202,6 +201,23 @@
         
 </main>
 
-<footer>Designed by <a href = patelswebcontinuum.com>Patel's Web Continuum.</a> &copy;2023</footer>
+<footer>
+    <nav>
+        <p> <a target="_blank" href="https://webpages.charlotte.edu/ppate206/">CLT Site</a> |
+            <a target="_blank" href="https://github.com/parth448812">Github</a> |
+            <a target="_blank" href="https://github.com/parth448812/parth448812.github.io">Github Pages</a> |
+            <a target="_blank" href="https://www.freecodecamp.org/parthpatel04">freeCodeCamp</a> |
+            <a target="_blank" href="https://www.codecademy.com/profiles/parth448812">Codecademy</a> | 
+            <a target="_blank" href="https://www.linkedin.com/in/parth-patel04">LinkedIn</a> 
+        </p>
+    </nav>
+    <p>Designed by <a href = patelswebcontinuum.com>Patel's Web Continuum.</a>&copy;2023</p>
+    <a href= "https://validator.w3.org/check?uri=referer">
+        <img src="https://www.w3.org/Icons/valid-html40" width="88" height="31" alt="Link to HTML validator">
+        </a>
+    <a href= "https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="https://www.w3.org/Icons/valid-css" width="88" height="31" alt="Link to CSS validator">
+        </a>
+</footer>
 </body>
 </html>

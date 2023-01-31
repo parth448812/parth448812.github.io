@@ -1,11 +1,18 @@
 body {
     
-    background-color: #F3D653/*#F2D140*//*#e6fdf8*/;
-    color: /*#441B5F*/#6C3BCE;
-    font-family: 'Inconsolata', monospace;
+    background-color: /*#ADEBE3*/#F3D653;
+    color: /*#393E41*/#6C3BCE;
+    font-family: 'Space Mono', monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    
   }
+header, footer, h2, h3, figure {
+  text-align: center;
+}
   a {
     color: #6C3BCE;
+    text-align: center;
   }
 
   a:visited {
@@ -19,3 +26,14 @@ body {
   a:active {
     color: #6900CC;
   }
+
+  #table1{
+  margin-left: auto;
+  margin-right: auto;
+}
+  #table2{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
