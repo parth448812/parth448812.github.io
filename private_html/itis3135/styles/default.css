@@ -3,28 +3,29 @@ body {
     background-color: /*#ADEBE3*/#F3D653;
     color: /*#393E41*/#6C3BCE;
     font-family: 'Space Mono', monospace;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 125px;
+    margin-right: 125px;
     
   }
 header, footer, h2, h3, figure {
   text-align: center;
 }
-  a {
-    color: #6C3BCE;
+a {
+    color: #A8201A/*#6C3BCE*/;
     text-align: center;
+    text-decoration: none;
   }
 
   a:visited {
-    color: #6C3BCE;
+    color: #A8201A;
   }
 
   a:hover {
-    color: #6900CC;
+    color: #143642;
   }
 
   a:active {
-    color: #6900CC;
+    color: #143642;
   }
 
   #table1{
