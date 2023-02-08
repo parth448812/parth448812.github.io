@@ -9,23 +9,28 @@ body {
   }
 header, footer, h2, h3, figure {
   text-align: center;
+
+}
+h3
+{
+  color: #7572AC;
 }
 a {
-    color: #A8201A/*#6C3BCE*/;
+    color: #2B303A/*#6C3BCE*/;
     text-align: center;
     text-decoration: none;
   }
 
   a:visited {
-    color: #A8201A;
+    color: #CC0A00;
   }
 
   a:hover {
-    color: #143642;
+    color: #2C7A2A;
   }
 
   a:active {
-    color: #143642;
+    color: #A8201A;
   }
 
   #table1{
