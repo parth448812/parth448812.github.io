@@ -3,8 +3,11 @@ body {
     background-color: /*#ADEBE3*/#F3D653;
     color: /*#393E41*/#6C3BCE;
     font-family: 'Space Mono', monospace;
-    margin-left: 125px;
-    margin-right: 125px;
+    /*margin-left: 125px;
+    margin-right: 125px;*/
+    max-width: 1080px; 
+	  margin: 0 auto ; 
+	  float: none ; 
     
   }
 header, footer, h2, h3, figure {
@@ -16,7 +19,7 @@ h3
   color: #7572AC;
 }
 a {
-    color: #2B303A/*#6C3BCE*/;
+    color: #A8201A;
     text-align: center;
     text-decoration: none;
   }
