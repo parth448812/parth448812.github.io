@@ -1,0 +1,39 @@
+
+var ftGUID_4171440="5350525D01C91E";
+var ftConfID_4171440="0";
+var ftParams_4171440="ftx=&fty=&ftadz=&ftscw=&ft_custom=&ftOBA=1&ft_ifb=1&ft_domain=www.flickr.com&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.flickr.com%2F&ft_section=__70313715675359647260772915777699139143&cachebuster=39886.64170813227";
+var ftKeyword_4171440="";
+var ftCustom_4171440="";
+var ftSection_4171440="__70313715675359647260772915777699139143";
+var ftSegment_4171440="aanx,aixc,ajg2,xl9160,xl40,xl1146,ajyd,xl5,xl25,ajwk,xl6164,xl52,xl316,aixo,ajv1,ai8t,ajv0,akf9";
+var ftSegmentList_4171440=[{s:'aanx',t:53550000},{s:'aixc'},{s:'ajg2'},{s:'xl9160'},{s:'xl40'},{s:'xl1146'},{s:'ajyd'},{s:'xl5'},{s:'xl25'},{s:'ajwk'},{s:'xl6164'},{s:'xl52'},{s:'xl316'},{s:'aixo',t:54901945},{s:'ajv1'},{s:'ai8t'},{s:'ajv0'},{s:'akf9'}];
+var ftRuleMatch_4171440="0";
+var ftTimestamp_4171440="1675376138";
+var ftGeoC2_4171440="us";
+var ftGeoState_4171440="nc";
+var ftGeoCity_4171440="charlotte";
+var ftISP_4171440="university of north carolina at charlotte";
+var ftSpeed_4171440="broadband";
+var ftConnType_4171440="wired";
+var ftDMA_4171440="517";
+var ftLong_4171440="-80.76";
+var ftLat_4171440="35.33";
+var ftPostal_4171440="28223";
+var ftTimeZone_4171440="-500";
+var ftMobileCarrier_4171440="";
+var ftImp4171440 = {};
+ftImp4171440.privacy = "x";
+ftImp4171440.guidAge = "161";
+ftImp4171440.impID = "831C3DC5-170B-4391-4C42-7495932CB2AE";
+ftImp4171440.duid = "FT:5350525D01C91E";
+
+ftImp4171440.ft_tpplid = "";
+ftImp4171440.ft_c = {};
+ftImp4171440.gdpr = "";
+ftImp4171440.gdpr_consent = "";
+ftImp4171440.gdpr_pd = "";
+ftImp4171440.oob_consent = "";
+ftImp4171440.gdprStoredConsent = "";
+ftImp4171440.us_privacy = "";
+
+document.write('<scr'+'ipt src="https://cdn.flashtalking.com/xre/417/4171440/4073165/js/j-4171440-4073165.js" id="ftscript_m4171440" name="ftscript_m4171440"></scr'+'ipt>');

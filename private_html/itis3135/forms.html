@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ITIS3135 | Parth Patel | HTML Forms | Home</title>
+    <title>ITIS3135 | Parth Patel's Purple Panther | HTML Forms</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Knewave&family=Silkscreen&family=Space+Mono&display=swap" rel="stylesheet">
@@ -10,15 +10,11 @@
         body {
             width: 100%;
             height: 100vh;
-            margin: auto;
-            /*background-color: #393E41;
-            color: #ADEBE3;*/
+            margin: 0 auto;
             font-family: 'Space Mono', monospace;
-            font-size: 16px;
             }
 
             h1, h2, p, header, footer {
-            margin: 1em auto;
             text-align: center;
             }
 
@@ -90,48 +86,49 @@
 </head>
 <body>
     <header>
-      <h1>ITIS3135 | Parth Patel</h1>
-        <h3>
-          <a target="_blank" href="https://webpages.charlotte.edu/ppate206/">Home</a> |
-          <a target="_blank" href=index.html>Introduction</a> |
-          <a target="_blank" href=tables.html>Tables</a> |
-          <a target="_blank" href=website_evaluations.html>Website Evaluations</a> |
-          <a target="_blank" href=stuff\H0Ri%20bLeW3b%24iTe.html>Crappy Website</a> |
-          <a target="_blank" href=first-scripts.html>First Script</a> |
-          <a target="_blank" href= calculator_try.html>Calculator</a>
-        </h3>
+      <h1>ITIS3135 | Parth Patel's Purple Panther</h1>
+      <h3>   
+        <a href="index.html">Home</a> |
+                <a href="introduction.html">Introduction</a> |
+                <a href="tables.html">Tables</a> |
+                <a href="forms.html">Forms</a> |
+                <a href="website_evaluations.html">Site Evaluation</a> |
+                <a href="stuff/H0Ri%20bLeW3b%24iTe.html">Crappy Website</a> |
+                <a href="first-scripts.html">First Scripts</a> |
+                <a href="calculator_try.html">Calculator</a>
+</h3>
     </header>
 <main>
     <h2>Patel's Web Continuum Registration Form</h2>
     <p>Please fill out this form with the required information</p>
         
-    <form method="post" action="#">
+    <form action="#">
         <fieldset>
-          <label for="first-name">Enter Your First Name: <input id="first-name" name="first-name" type="text" required /></label>
-          <label for="last-name">Enter Your Last Name: <input id="last-name" name="last-name" type="text" required /></label>
-          <label for="user-name">Enter Your User Name: <input id="user-name" name="user-name" type="text" required /></label>
-          <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
-          <label for="new-password">Create a New Password: <input id="new-password" name="new-password" type="password" required /></label>
+          <label for="firstname">Enter Your First Name: <input type="text" id="firstname" name="firstname" required /></label>
+          <label for="lastname">Enter Your Last Name: <input type="text" id="lastname" name="lastname" required /></label>
+          <label for="email">Enter Your User Name: <input type="email" id="email" name="email" required /></label>
+          <label>Enter Your Email: <input required /></label>
+          <label>Create a New Password: <input type="password" required /></label>
         </fieldset>
         <fieldset>
-          <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
-          <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
-          <label for="terms-and-conditions">
-            <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="index.html">Terms and Conditions</a>
+          <label><input type="radio" class="inline" /> Personal Account</label>
+          <label><input type="radio" class="inline" /> Business Account</label>
+          <label>
+            <input type="checkbox" required class="inline" /> I accept the <a href="index.html">Terms and Conditions</a>
           </label>
         </fieldset>
         <fieldset>
-          <label for="age">Input your age (at least 18 years): <input id="age" type="number" name="age" min="18" max="110" /></label>
-          <label for="referrer">What Is Your Favorite Aspect of Web Design?
-            <select id="referrer" name="referrer">
+          <label>Input your age (at least 18 years): <input type="number"  min="18" max="110" /></label>
+          <label >What Is Your Favorite Aspect of Web Design?
+            <select>
               <option value="">(select one)</option>
               <option value="1">HTML</option>
               <option value="2">CSS</option>
               <option value="4">Other</option>
             </select>
           </label>
-          <label for="bio">Provide a bio:
-            <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I like hiking in the mountains..."></textarea>
+          <label>Provide a bio:
+            <textarea rows="3" cols="30" placeholder="I like hiking in the mountains..."></textarea>
           </label>
         </fieldset>
         <input type="reset" value="Reset" />
@@ -144,14 +141,14 @@
   <nav>
     <p> <a target="_blank" href="https://webpages.charlotte.edu/ppate206/">CLT Site</a> |
       <a target="_blank" href="https://github.com/parth448812">Github</a> |
-      <a target="_blank" href="https://github.com/parth448812/parth448812.github.io">Github Pages</a> |
-      <a target="_blank" href="https://github.com/parth448812/parth448812.github.io/tree/main/private_html/itis3135">ITIS-3135 Github Page</a> |
+      <a target="_blank" href="https://parth448812.github.io">Github.io</a> |
+      <a target="_blank" href="https://github.com/parth448812/parth448812.github.io/tree/main/private_html/itis3135">Course.io</a> |
       <a target="_blank" href="https://www.freecodecamp.org/parthpatel04">freeCodeCamp</a> |
       <a target="_blank" href="https://www.codecademy.com/profiles/parth448812">Codecademy</a> | 
       <a target="_blank" href="https://www.linkedin.com/in/parth-patel04">LinkedIn</a> 
   </p>
   </nav>
-  <p>Designed by <a href = patelswebcontinuum.com>Patel's Web Continuum.</a>&copy;2023</p>
+  <p>Designed by <a href = "patelswebcontinuum.com">Patel's Web Continuum.</a>&copy;2023</p>
   <a href= "https://validator.w3.org/check?uri=referer">
       <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
       </a>
