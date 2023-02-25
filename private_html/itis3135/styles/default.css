@@ -62,10 +62,10 @@ a {
   align-content: center;
   min-height: 60vh;
   margin: auto;
-  width: 30%;
+  width: 35%;
   grid-template-columns: repeat(4, 90px);
   grid-template-rows: minmax(100px, auto) repeat(5, 90px);
-  
+  background-color: rgb(181, 125, 220);
   padding-top: 0.05%;
 }
 
@@ -77,8 +77,20 @@ a {
   border-color: rgb(181, 125, 220);
 }
 button {
-  color: black;
-  background-color: #FF621F;
+  color: #31393C;
+  background-color: #BC9EC1;
+  font-size: 16px;
+  font-family: 'Space Mono', monospace;
+  border: none;
+  border-radius: 8px;
+  
+}
+button:hover
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+button:active {
+  transform: translateY(3px);
 }
 
 .other {
