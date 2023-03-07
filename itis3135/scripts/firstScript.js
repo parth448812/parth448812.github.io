@@ -1,10 +1,12 @@
-var fName = window.prompt("What is your name?");
-var mood = window.prompt("How are you doing?");
-var today = new Date();
-
-document.write("<br>Today is " + today.toDateString() + " and the time is " + today.getHours() + ":" + today.getMinutes());
-document.write("<br>Patel's Web Continuum welcomes you, <b>" + fName + "</b> to the Purple Panthers!");
-document.write("<br>We're happy to see you are doing <u>" + mood + "</u>!");
+function nameFeeling()
+{
+    var fName = window.prompt("What is your name?");
+    var mood = window.prompt("How are you doing?");
+    var today = new Date();
+document.getElementById("first1").innerHTML="<br>Today is " + today.toDateString() + " and the time is " + today.getHours() + ":" + today.getMinutes();
+document.getElementById("first2").innerHTML="<br>Patel's Web Continuum welcomes you, <b>" + fName + "</b> to the Purple Panthers!";
+document.getElementById("first3").innerHTML="<br>We're happy to see you are doing <u>" + mood + "</u>!";
+}
 
 function pantherParade(){
     var pan1, pan2;

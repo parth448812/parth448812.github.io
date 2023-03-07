@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ITIS3135 | Parth Patel's Purple Panther | Introduction</title>
+    <title>ITIS3135 | Parth Patel's Purple Panther | Calculator</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&display=swap" rel="stylesheet">
     <link href = "styles/default.css" rel = "stylesheet">
+    <script src = "scripts/calculator_try.js" defer> </script>
+    <style>
+        body
+        {
+            text-align: center;
+        }
+        button {
+            color: black;
+            background-color: #FF621F;
+            font-size: 2rem;
+            font-family: 'Space Mono', monospace;
+            border: 10px solid whitesmoke;
+            border-radius: 0px;
+        }
+        
+    </style>
 </head>
 <body>
     <header>
@@ -20,37 +36,38 @@
             <a href="calculator_try.html">Calculator</a> |
             <a href="polygons.html">Polygons</a>
     </h3>
-    <h3>
+    <h3 class="menu">
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">Crappy Website</a>
     </h3>
     </header>
 <main>
-    <h2>Introduction</h2>
-    <figure>
-        <img src="images/panther.jpg" height="300" alt="">
-        <figcaption><em>Purple Panther</em></figcaption>
-    </figure>
-    
-        
-        <ul>
-            <li><strong>Personal background:</strong> I have been in Charlotte for over 13 years.</li>
-            <li><strong>Professional Background:</strong> I was a customer service clerk at a grocery store for 11 months.</li>
-            <li><strong>Academic Background:</strong> High school diploma, purusing BS in Computer Science</li>
-          <li><strong>Background in this Subject:</strong> I have developed GUIs in the past using C#. </li>
-          
-          <li><strong>Primary Computer Platform:</strong> Windows</li>
-          <li><strong>Coures I'm Taking:</strong>
-            <ol>
-            <li><strong>CJUS2340</strong> - Criminological Theory - I like learning about the legal aspect of our government.</li>
-            <li><strong>MATH1242</strong> - Calculus II - Required</li>
-            <li><strong>ITIS3310</strong> - Software Architecture & Design - I like learning about the intricacies of software development and design.</li>
-            <li><strong>ITSC2175</strong> - Logic and Algorithms - Required</li>
-            <li><strong>ITIS3135</strong> - Web Apps Development - I wanted to learn more about developing frontend software similar to GUIs. Most my computer science background is in backend programming.</li>
-          </ol>
-        </li>
-          <li><strong>Funny/Interesting Item about Yourself:</strong> I like watching the combat sports.</li>
-          <li><strong>I'd also like to Share:</strong> Excited to learn how to develop some websites.</li>
-        </ul>
+    <h2>Calculator</h2>
+    <p>I got my calculator_try to work, so I chose not to do the calculator_fcc.</p>
+    <p>Try some calculations below</p>
+    <div class="grid">
+        <div class="result">
+            <div data-previous-operand class="previous"></div>
+            <div data-current-operand class="present"></div>
+        </div>
+        <button data-all-clear class="other">AC</button>
+        <button data-delete>DEL</button>
+        <button data-operation>÷</button>
+        <button data-number>1</button>
+        <button data-number>2</button>
+        <button data-number>3</button>
+        <button data-operation>*</button>
+        <button data-number>4</button>
+        <button data-number>5</button>
+        <button data-number>6</button>
+        <button data-operation>+</button>
+        <button data-number>7</button>
+        <button data-number>8</button>
+        <button data-number>9</button>
+        <button data-operation>-</button>
+        <button data-number>.</button>
+        <button data-number>0</button>
+        <button data-equals class="other">=</button>
+    </div>
         
         
 </main>
@@ -66,7 +83,7 @@
             <a target="_blank" href="https://www.linkedin.com/in/parth-patel04">LinkedIn</a> 
         </p>
     </nav>
-    <p>Designed by <a href = "patelswebcontinuum.com">Patel's Web Continuum.</a>&copy;2023</p>
+    <p>Designed by <a href = "patelswebcontinuum.com">Patel's Web Continuum</a>&copy;2023</p>
     <a href= "https://validator.w3.org/check?uri=referer">
         <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
         </a>
