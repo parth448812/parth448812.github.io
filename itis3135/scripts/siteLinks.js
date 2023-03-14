@@ -15,7 +15,8 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="calculator_fcc.html">Calculator FCC</a> |
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
-        <a href="contract.html">Contract</a>
+        <a href="contract.html">Contract</a> |
+        <a href="project_1.html">Project Design</a>
       </h3>
       <h3 class="menu">
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">Crappy Website</a> |

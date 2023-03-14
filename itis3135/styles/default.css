@@ -145,6 +145,11 @@ ol.order{
   display: inline-block;
   text-align: left;
 }
+ul.order{ 
+  display: inline-block;
+  text-align: left;
+}
+div.contain{text-align: center}
 figure tr:nth-child(3)
 {
   background-color: #6C3BCE;
