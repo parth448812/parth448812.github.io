@@ -109,14 +109,23 @@ button:active
 {
   transform: translateY(3px);
 }
-
+.horizontal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.inliner{
+  display: inline;
+}
+.pics{
+  text-align: center;
+}
 .other 
 {
   grid-column: span 2;
   color: black;
   background-color: #6CD39C;
 }
-
 .result 
 {
   grid-column: 1 / -1;
@@ -129,7 +138,6 @@ button:active
   word-wrap: break-word;
   word-break: break-all;
 }
-
 .result .previous 
 {
   color: black;

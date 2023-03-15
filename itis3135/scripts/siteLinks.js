@@ -10,16 +10,17 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="tables.html">Tables</a> |
         <a href="forms.html">Forms</a> |
         <a href="website_evaluations.html">Site Evaluation</a> |
-        <a href="first-scripts.html">First Scripts</a> |
+        <a href="firstscripts.html">First Scripts</a> |
         <a href="calculator_try.html">Calculator Try</a> |
         <a href="calculator_fcc.html">Calculator FCC</a> |
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
         <a href="contract.html">Contract</a> |
-        <a href="project_1.html">Project Design</a>
+        <a href="slideshow.html">Slideshow</a> |
+        <a href="project1.html">Project Design</a>
       </h3>
       <h3 class="menu">
-        <a href="stuff/H0Ri%20bLeW3b%24iTe.html">Crappy Website</a> |
+        <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY Site</a> |
         <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a>
         </h3>
     `;
