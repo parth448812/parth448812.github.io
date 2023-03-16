@@ -1,7 +1,7 @@
 body 
 {
-  background-color: /*#ADEBE3*/#F3D653;
-  color: /*#393E41*/#6C3BCE;
+  background-color: /*#F3D653*/#e1b382;
+  color: /*#6C3BCE*/#2d545e;
   font-family: 'Space Mono', monospace;
   /*margin-left: 125px;
   margin-right: 125px;*/
@@ -21,7 +21,7 @@ footer
 }
 h3
 {
-  color: #6C3BCE;
+  color: #2d545e;
 }
 .menu
 {
@@ -36,6 +36,7 @@ h3
 {
   text-decoration: none;
 }
+
 p
 {
   font-size: 18px;
@@ -49,12 +50,12 @@ a
 }
 a:hover 
 {
-  color: #2b68ca/*#2C7A2A*/;
+  color: #19847f/*#2C7A2A*/;
   text-decoration: overline underline;
   }
 a:active 
 {
-  color: #CC0A00;
+  color: #CA2E55;
 }
 
 
@@ -160,28 +161,28 @@ ul.order{
 div.contain{text-align: center}
 figure tr:nth-child(3)
 {
-  background-color: #6C3BCE;
-  color: #F3D653;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 figure tr:nth-child(4)
 {
-  background-color: #6C3BCE;
-  color: #F3D653;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 figure tr:nth-child(7)
 {
-  background-color: #6C3BCE;
-  color: #F3D653;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 figure tr:nth-child(8)
 {
-  background-color: #6C3BCE;
-  color: #F3D653;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 figure tr:nth-child(10)
 {
-  background-color: #6C3BCE;
-  color: #F3D653;
+  background-color: #2d545e;
+  color: #e1b382;
 }
 form 
 {
@@ -195,7 +196,7 @@ form
   fieldset {
   border: none;
   padding: 2rem 0;
-  border-bottom: 3px solid #6C3BCE;
+  border-bottom: 3px solid #2d545e;
   }
 
   fieldset:last-of-type {
@@ -219,16 +220,21 @@ form
   }
 table, th, tr{
   margin: 0 auto;
-  border: 1px solid #6C3BCE;
+  border: 1px solid #2d545e;
   border-radius: 10px;
   
 }
-  input, textarea {
-  background-color: #ccaa0082;
-  border: 1px solid #CCAA00;
-  color: #7f03fc;
-  }
-
+input, textarea {
+  background-color: #4b371a82;
+  border: 1px solid #9e5900;
+  color: #FFFDD0;
+}
+::placeholder {
+  color: #FFFDD0;
+}
+.der {
+  color: #2d545e;
+}
   .inline {
   width: unset;
   margin: 0 0.5em 0 0;
@@ -247,8 +253,8 @@ table, th, tr{
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #F3D653;
-  border-color: #6C3BCE;
+  background-color: #e1b382;
+  border-color: #2d545e;
   min-width: 300px;
   }
   
@@ -258,12 +264,12 @@ table, th, tr{
   margin: 1em auto;
   height: 2em;
   font-size: 1.1rem;
-  background-color: #F3D653;
-  border-color: #6C3BCE;
+  background-color: #e1b382;
+  border-color: #2d545e;
   min-width: 300px;
   }
 .pur{
-  color: #6C3BCE;
+  color: #2d545e;
 }
 /*
 @media (min-width: 576px) {
