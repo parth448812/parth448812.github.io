@@ -21,7 +21,8 @@ document.addEventListener("DOMContentLoaded", function() {
       </h3>
       <h3 class="menu">
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY Site</a> |
-        <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a>
+        <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a> |
+        <a href="hobby">Hobby</a>
         </h3>
     `;
     document.body.insertBefore(header, document.body.firstChild);

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ITIS3135 | Parth Patel's Purple Panther | Hobby</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet">
+<script src = "hobby.js" defer></script>
+<style>
+    section{
+        display: none;
+    }
+    #home 
+    {
+        display: block;
+    }
+    body 
+    {
+        background-color: #9bbfe7;
+        color: #2c3639;
+        font-family: 'Space Mono', monospace;
+        max-width: 1080px; 
+        margin: 0 auto ; 
+        float: none ; 
+    }
+    header, footer, h2, h3, figure 
+    {
+        text-align: center;
+    }
+    footer
+    {
+        text-decoration: none;
+    }
+    p{
+        font-size: 17px;
+    }
+    a 
+    {
+        color: #297e38;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    a:hover 
+    {
+        color: #243f92;
+        text-decoration: overline underline;
+    }
+    ol.order
+    { 
+        display: inline-block;
+        text-align: left;
+    }
+
+    ul.order
+    { 
+        display: inline-block;
+        text-align: left;
+    }
+    div.contain
+    {
+        text-align:center;
+    }
+    .cent
+    {
+        text-align: center;
+    }
+    #weight_table
+    {
+        margin-left: auto;
+        margin-right: auto;
+    }
+</style>
+</head>
+<body>
+    <h1 class = "cent">Boxing</h1>
+    <header>
+        <nav>
+            <p>
+            <a href="javascript:setVisible('home')" onclick = "preventDefault">Home</a> |
+            <a href="javascript:setVisible('about')" onclick = "preventDefault">About Me</a> |
+            <a href="javascript:setVisible('schedule')" onclick = "preventDefault">Schedule</a> |
+            <a href="javascript:setVisible('where')" onclick = "preventDefault">Where</a> |
+            <a href="javascript:setVisible('why')" onclick = "preventDefault">Why</a> |
+            <a href="javascript:setVisible('how')" onclick = "preventDefault">How</a>
+            </p>
+        </nav>
+    </header>
+<main>
+    <section id = "home">
+        <h2>Home</h2>
+        <p class="cent">Welcome to the home page of my Boxing Site!</p>
+        <p class = "cent">If you have any interest in boxing or combat sports feel free to explore this website and educate yourself. 
+            We have a Home page (current), About Me page, a Legendary Boxers page, a Weight Classes page, a Why page, and a How page.</p>
+        <figure>
+            <img src="images/boxing_home.jpg" height = 300 alt="Boxer">
+            <figcaption>Boxer</figcaption>
+        </figure>
+    </section>
+    <section id = "about">
+        <h2>About Me</h2>
+        <p>My name is Parth Patel. I am a 18 year old Sophomore at UNC Charlotte studying Computer Science. 
+            My Concentration is in Software Engineering.</p>
+        <p>One of my favorite hobbies is Boxing. I first started learning how boxing a few years back just 
+            to learn how to protect myself if I need to and it is a great way to keep your mind occupied</p>
+        <figure>
+            <img src="images/boxing_about.jpg" height = 400 alt = "Boxing Spar">
+            <figcaption>Boxers Sparring In The Ring</figcaption>
+        </figure>
+    </section>
+    <section id = "schedule">
+        <h2>Schedule</h2>
+        <figure>
+            <img src="images/boxing_schedule.jpg" height = 400 alt = "Calendar">
+            <figcaption>Boxing Calendar</figcaption>
+        </figure>
+        <h3>Boxing/Technique Training</h3>
+        <div class="contain">
+        <ul class="order">
+            <li>Monday</li>
+            <li>Wednesday</li>
+            <li>Friday</li>
+            <li>Sunday</li>
+        </ul>
+        <h3>Cardio/Running</h3>
+        <ul class="order">
+            <li>Tuesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+        </ul>
+        <h3>Sparring</h3>
+        <ul class="order">
+            <li>Monday</li>
+            <li>Wednesday</li>
+        </ul>
+        <h3>Watching Film/Shadowboxing</h3>
+        <ul class="order">
+            <li>Monday</li>
+            <li>Tuesday</li>
+            <li>Wednesday</li>
+            <li>Thursday</li>
+            <li>Friday</li>
+            <li>Sunday</li>
+        </ul>
+        <h3>Recovery</h3>
+        <ul class="order">
+            <li>Saturday</li>
+        </ul>
+        </div>
+    </section>
+    <section id = "where">
+        <h2>Where Do You Box?</h2>
+        <p>The best places to box would be a boxing gym, but a normal gym would also work. 
+            What makes a boxing gym unique to a normal gym would be the equipment such as heavy bags, reflex bags, 
+            boxing rings, etc.
+        </p>
+        <p>When training it is also important to know your weight class for sparring and matchmaking purposes.</p>
+        <figure>
+            <img src="images/boxing_weight.jpg" height = 150 alt = "Weight Scale">
+            <figcaption>Weight Scale</figcaption>
+        </figure>
+        <h3>Weight Classes</h3>
+        <table id = "weight_table" style = "border:2px solid #2d545e">
+            <thead>
+                <tr>
+                    <th>Weight Divison</th>
+                    <th>Weight Limits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Heavyweight</td>
+                    <td>200lbs<strong>&#8804;</strong></td>
+                </tr>
+                <tr>
+                    <td>Crusierweight</td>
+                    <td>175-200lbs</td>
+                </tr>
+                <tr>
+                    <td>Light Heavyweight</td>
+                    <td>168-175lbs</td>
+                </tr>
+                <tr>
+                    <td>Super Middleweight</td>
+                    <td>160-168lbs</td>
+                </tr>
+                <tr>
+                    <td>Middleweight</td>
+                    <td>154-160lbs</td>
+                </tr>
+                <tr>
+                    <td>Light Middleweight</td>
+                    <td>147-154lbs</td>
+                </tr>
+                <tr>
+                    <td>Welterweight</td>
+                    <td>140-147lbs</td>
+                </tr>
+                <tr>
+                    <td>Light Welterweight</td>
+                    <td>135-140lbs</td>
+                </tr>
+                <tr>
+                    <td>Lightweight</td>
+                    <td>130-135lbs</td>
+                </tr>
+                <tr>
+                    <td>Super Featherweight</td>
+                    <td>126-130lbs</td>
+                </tr>
+                <tr>
+                    <td>Featherweight</td>
+                    <td>122-126lbs</td>
+                </tr>
+                <tr>
+                    <td>Super Bantamweight</td>
+                    <td>118-122lbs</td>
+                </tr>
+                <tr>
+                    <td>Bantamweight</td>
+                    <td>115-118lbs</td>
+                </tr>
+                <tr>
+                    <td>Super Flyweight</td>
+                    <td>112-115lbs</td>
+                </tr>
+                <tr>
+                    <td>Flyweight</td>
+                    <td>108-112lbs</td>
+                </tr>
+                <tr>
+                    <td>Light Flyweight</td>
+                    <td>105-108lbs</td>
+                </tr>
+                <tr>
+                    <td>Strawweight</td>
+                    <td>105lbs</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id = "why">
+        <h2>Why Should You Start Boxing?</h2>
+        <figure>
+            <img src="images/boxing_why.jpg" height = 300 alt = "Why">
+            <figcaption>Practicing Handplacement and Accuracy</figcaption>
+        </figure>
+        <ol>
+            <li>It a great form of exercise because it works the entire body, primarily the arms.</li>
+            <li>It is also a good way to keep your brain occupied because it requires a lot of thinking. 
+                With every punch you throw, the way your feet and hands are placed, it requireds
+                you to think about your next move, while thinking about your opponents in order to counter.</li>
+            <li>Boxing also allows you to protect yourself <strong>IF</strong> you are in a scenario where no other option is available.</li>
+        </ol>
+    </section>
+    <section id = "how">
+        <h2>How Do You Start Training Boxing?</h2>
+        <figure>
+            <img src="images/boxing_shadow.jpg" height = 350 alt = "Shawdowboxing">
+            <figcaption>Shawdowboxing</figcaption>
+        </figure>
+        <ol>
+            <li><strong>Cardio:</strong> Running improves stamina, which allows you to last longer in a fight and not get exhausted.</li>
+            <li><strong>Shadowboxing:</strong> Imagining an opponent in front of you to practice footwork, hand placement, and defensive manuvears.</li>
+            <li><strong>Resistence Bands/Weight Lifting:</strong> Increases handspeed and power.</li>
+            <li><strong>Sparring:</strong> Practice your Ring IQ, get comfortable being hit, test out different techniques. 
+                Nothing beats sparring because it is the closet you will get to a fight without being in a fight.</li>
+        </ol>
+        <figure>
+            <img src="images/boxing_sparring.jpg" height = 350 alt = "Sparring">
+            <figcaption>Sparring</figcaption>
+        </figure>
+        <figure>
+            <img src="images/boxing_cardio.jpg" height = 175 alt = "Running">
+            <figcaption>Cardio</figcaption>
+        </figure>
+    </section>
+</main>
+
+<footer>
+    <p>Designed by <a href = "../patelswebcontinuum.com">Patel's Web Continuum</a>&copy;2023</p>
+    <a href= "https://validator.w3.org/check?uri=referer">
+        <img src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
+    </a>
+    <a href= "https://jigsaw.w3.org/css-validator/check/referer">
+        <img src="images/valid-css.png" width="88" height="31" alt="Link to CSS validator">
+    </a>
+</footer>
+</body>
+</html>
