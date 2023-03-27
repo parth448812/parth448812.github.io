@@ -7,6 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <h3>
         <a href="index.html">Home</a> |
         <a href="introduction.html">Introduction</a> |
+        <a href="contract.html">Contract</a> |
         <a href="tables.html">Tables</a> |
         <a href="forms.html">Forms</a> |
         <a href="website_evaluations.html">Site Evaluation</a> |
@@ -15,7 +16,6 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="calculator_fcc.html">Calculator FCC</a> |
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
-        <a href="contract.html">Contract</a> |
         <a href="slideshow.html">Slideshow</a> |
         <a href="project1.html">Project Design</a>
       </h3>
