@@ -4,8 +4,7 @@
     <title>ITIS3135 | Parth Patel's Purple Panther | Client Project | Luxury Watches</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet">
-<link href = "client.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet"><link href = "client.css" rel = "stylesheet">
 </head>
 <body>
     
@@ -13,20 +12,66 @@
         <h1 class = "cent">The Ultimate Guide to Learning Watches</h1>
         <h3>
             <a href="index.html">Home</a> |
-            <a href="history.html">Watch History</a> |
             <a href="mechanics.html">Watch Mechanics</a> |
             <a href="luxury.html">Luxury Watches</a> |
             <a href="affordable.html">Affordable Alternatives</a> |
-            <a href="contact.html">Contact</a>
+            <a href="aboutus.html">About Us</a>
         </h3>
     </header>
 <main>
     <h2>Luxury Watches</h2>
-    <figure>
-        <img src="images/watches" height = 300 alt="">
-        <figcaption></figcaption>
-    </figure>
-    <p></p>
+    <div class="contain" style="border:2px solid #2d545e">
+        <figure>
+            <img src="images/ap_pic_2.jpg" height = 150 alt="AP Watch">
+            <figcaption class="cap"><em>Audemars Piguet Royal Oak Offshore</em></figcaption>
+        </figure>
+        <h3>Audemars Piguet</h3>     
+        <ul class="order menu">
+            <li>Founded in 1875 by Jules Louis Audemars and Edward Auguste Piguet in Switzerland.</li>
+            <li>Their most popular model is the Royal Oak, which was first released in 1972 to combat the Quartz Crisis taking over. 
+                More information on the Quartz Crisis in the Mechanics Page. 
+            </li>
+            <li>The brand collection has prices that range from $25,000 to $900,000</li>
+        </ul>
+        <figure>
+            <img src="images/patek_pic_2.jpg" height = 150 alt="Patek Phillipe Watch">
+            <figcaption class="cap"><em>Patek Phillipe Rose Gold Complications</em></figcaption>
+        </figure>
+        <h3>Patek Phillipe</h3>
+        <ul class="order menu">
+            <li>Founded in 1839 by Antoni Patek and Adrien Phillipe in Geneva, Switzerland.</li>
+            <li>Their most popular model is the Nautilus, which was first released in 1976 to combat the Quartz Crisis taking over. 
+                More information on the Quartz Crisis in the Mechanics Page. 
+            </li>
+            <li>The brand collection has prices that range from $18,000 to $33,884,798</li>
+        </ul>
+        <figure>
+            <img src="images/rolex_pic_2.jpg" height = 150 alt="Rolex Watch">
+            <figcaption class="cap"><em>Rolex Submariner Deep Sea</em></figcaption>
+        </figure>
+        <h3>Rolex</h3>
+        <ul class="order">
+            <li>Founded in 1905 by Hans Wilsdorf in London, United Kingdom.</li>
+            <li>Their most popular model is the Submariner, which was first released in 1953 for divers,
+                who were looking for watches that were corrosion resistant. This watch is also the first 
+                to ever reach a depth of 100 meters, groundbreaking at the time. 
+            </li>
+            <li>The brand collection has prices that range from $25,000 to $17,800,000</li>
+        </ul>
+        <form action="#">
+        <fieldset>
+            <label><input type="radio" name="fav_lux"/>Audemars Piguet</label>
+            <label><input type="radio" name="fav_lux"/>Patek Phillipe</label>
+            <label><input type="radio" name="fav_lux"/>Rolex</label>
+            <label><input type="radio" name="fav_lux"/>Other</label>
+            <br>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+        </fieldset>
+        </form>
+    </div>
+    <!--include drop down menu for preferred brand of watch-->
+    <!--include slideshow of luxury watches-->
 </main>
 
 <footer>

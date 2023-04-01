@@ -2,13 +2,13 @@ body
 {
     background-color: #a6e79b;
     color: #2c3639;
-    font-family: 'Julee', cursive;
+    /*font-family: 'Julee', cursive;*/
+    font-family: 'Gentium Book Plus', serif;
     max-width: 1080px; 
     margin: 0 auto; 
     float: none; 
     font-size: 17px;
 }
-
 header, footer, h2, h3, figure 
 {
     text-align: center;
@@ -24,6 +24,7 @@ footer
 }
 p{
     font-size: 23px;
+    
 }
 a 
 {
@@ -31,6 +32,10 @@ a
     text-align: center;
     text-decoration: none;
     font-weight: bold;
+}
+.liner
+{
+    line-height: 0.75;
 }
 a:hover 
 {
@@ -55,6 +60,18 @@ ul.order
 div.contain
 {
     text-align: center;
+    background-color: rgb(199, 222, 239);
+}
+.cap
+{
+    font-size: 15px;
+}
+.menu
+{
+border-bottom-style: solid;
+padding-bottom: 2%;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
 }
 .cent
 {

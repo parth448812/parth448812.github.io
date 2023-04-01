@@ -4,8 +4,7 @@
     <title>ITIS3135 | Parth Patel's Purple Panther | Client Project | Affordable Alternatives</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet">
-<link href = "client.css" rel = "stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet"><link href = "client.css" rel = "stylesheet">
 </head>
 <body>
     
@@ -13,20 +12,71 @@
         <h1 class = "cent">The Ultimate Guide to Learning Watches</h1>
         <h3>
             <a href="index.html">Home</a> |
-            <a href="history.html">Watch History</a> |
             <a href="mechanics.html">Watch Mechanics</a> |
             <a href="luxury.html">Luxury Watches</a> |
             <a href="affordable.html">Affordable Alternatives</a> |
-            <a href="contact.html">Contact</a>
+            <a href="aboutus.html">About Us</a>
         </h3>
     </header>
 <main>
     <h2>Affordable Alternatives</h2>
-    <figure>
-        <img src="images/watches" height = 300 alt="">
-        <figcaption></figcaption>
-    </figure>
-    <p></p>
+    <div class="contain" style="border:2px solid #2d545e">
+        <figure>
+            <img src="images/omega_pic_1.jpg" height = 200 alt="Omega Watch">
+            <figcaption><em>Omega Seamaster</em></figcaption>
+        </figure>
+        <h3>Omega</h3>
+        <ul class="order menu">
+            <li>Founded in 1848 by Louis Brandt in La Chaux-de-Fonds, Switzerland.</li>
+            <li>Their most popular model is the Seamaster, which was first released in 1948 desgined 
+                for the British Royal Navy due to its unique waterproof seal. 
+                More information on the Quartz Crisis in the Mechanics Page. 
+            </li>
+            <li>The average price of an Omega watch is $5,000</li>
+            <li>The price might seem expensive, but compared to the watches on the luxury page it is very inexpensive.</li>
+
+        </ul>
+        <figure>
+            <img src="images/tissot_pic_1.jpg" height = 150 alt="Tissot Watch">
+            <figcaption><em>Tissot Leather Le Locle</em></figcaption>
+        </figure>
+        <h3>Tissot</h3>
+        <ul class="order menu">
+            <li>Founded in 1853 by Charles-Félicien Tissot and his son, Charles-Émile Tissot in Le Locle, Switzerland.</li>
+            <li>Their most popular model is the Le Locle, which was first released in 2003 to celebrate the 150th anniversary of the company.
+            </li>
+            <li>The average price of a Tissot watch is around $300</li>
+        </ul>
+        <figure>
+            <img src="images/casio_pic_1.jpg" height=200 alt="Casio Watch">
+            <figcaption><em>Casio G-Shock</em></figcaption>
+        </figure>
+        <h3>Casio</h3>     
+        <ul class="order">
+            <li>Founded in 1946 by Tadao Kashio in Tokyo, Japan.</li>
+            <li>Their most popular model is the G-Shock, which was first released in 1983 to accomplish 
+                a goal of creating a watch that wouldn't break, even if it fell. 
+            </li>
+            <li>The average price of a Casio watch is $150.</li>
+        </ul>
+        <form action="#">
+        <fieldset>
+            <label>What Is Your Favorite Affordable Alternative?
+              <select>
+                <option value="">(select one)</option>
+                <option value="1">Omega</option>
+                <option value="2">Tissot</option>
+                <option value="3">Casio</option>
+                <option value="4">Other</option>
+              </select>
+            </label>
+            <br>
+            <input type="reset" value="Reset" />
+            <input type="submit" value="Submit" />
+        </fieldset>
+        </form>
+    </div>
+    <!--include slideshow of luxury watches-->
 </main>
 
 <footer>
