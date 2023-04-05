@@ -23,6 +23,8 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY Site</a> |
         <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a> |
         <a href="hobby">Hobby</a> |
+        <a href="Patel-Activity11/Patel-Activity11.html">Accordion Widget</a> |
+        <a href="Patel-Activity12/Patel-Activity12.html">bxSlider Plugin</a> |
         <a href="client_project">Client Project</a>
         </h3>
     `;
