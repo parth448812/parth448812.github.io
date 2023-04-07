@@ -17,7 +17,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
         <a href="slideshow.html">Slideshow</a> |
-        <a href="project1.html">Project Design</a>
+        <a href="project1.html">Project Design</a> |
+        <a href="review1.html">Peer Review 1</a> |
+        <a href="review2.html">Peer Review 2</a>
       </h3>
       <h3 class="menu">
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY Site</a> |
