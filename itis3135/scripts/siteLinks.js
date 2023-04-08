@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="hobby">Hobby</a> |
         <a href="Patel-Activity11/Patel-Activity11.html">Accordion Widget</a> |
         <a href="Patel-Activity12/Patel-Activity12.html">bxSlider Plugin</a> |
+        <a href="Patel-Activity12/Patel-Activity13.html">Activity 13</a> |
         <a href="client_project">Client Project</a>
         </h3>
     `;
