@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <p> 
             <a target="_blank" href="https://webpages.charlotte.edu/ppate206/">Web Space</a> |
             <a target="_blank" href="https://github.com/parth448812">Github</a> |
-            <a target="_blank" href="https://parth448812.github.io">Github.io</a> |
+            <a target="_blank" href="https://parth448812.github.io/itis3135">Github.io</a> |
             <a target="_blank" href="https://github.com/parth448812/parth448812.github.io/tree/main/itis3135">Course.io</a> |
             <a target="_blank" href="https://www.freecodecamp.org/parthpatel04">freeCodeCamp</a> |
             <a target="_blank" href="https://www.codecademy.com/profiles/parth448812">Codecademy</a> | 
