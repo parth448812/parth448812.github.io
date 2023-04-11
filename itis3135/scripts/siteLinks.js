@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
       <h1>
         ITIS3135 | Parth Patel's Purple Panther
       </h1>
-      <h3>
+      <nav>
         <a href="index.html">Home</a> |
         <a href="introduction.html">Introduction</a> |
         <a href="contract.html">Contract</a> |
@@ -20,8 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="project1.html">Project Design</a> |
         <a href="review1.html">Peer Review 1</a> |
         <a href="review2.html">Peer Review 2</a>
-      </h3>
-      <h3 class="menu">
+      </nav>
+      <br>
+      <nav class="menu">
         <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY Site</a> |
         <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a> |
         <a href="hobby">Hobby</a> |
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="Patel-Activity14/Patel-Activity14.html">Load Speaker Files</a> |
 
         <a href="client_project">Client Project</a>
-        </h3>
+        </nav>
     `;
     document.body.insertBefore(header, document.body.firstChild);
   });  
