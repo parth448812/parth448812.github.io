@@ -10,16 +10,16 @@ document.addEventListener("DOMContentLoaded", function() {
         <a href="contract.html">Contract</a> |
         <a href="tables.html">Tables</a> |
         <a href="forms.html">Forms</a> |
-        <a href="website_evaluations.html">Site&nbspEvaluation</a> |
-        <a href="firstscripts.html">First&nbspScripts</a> |
+        <a href="website_evaluations.html">Site&nbsp;Evaluation</a> |
+        <a href="firstscripts.html">First&nbsp;Scripts</a> |
         <a href="calculator_try.html">Calculator Try</a> |
         <a href="calculator_fcc.html">Calculator FCC</a> |
         <a href="polygons.html">Polygons</a> |
         <a href="arrays.html">Arrays</a> |
         <a href="slideshow.html">Slideshow</a> |
-        <a href="project1.html">Project&nbspDesign</a> |
-        <a href="review1.html">Peer&nbspReview&nbsp1</a> |
-        <a href="review2.html">Peer&nbspReview&nbsp2</a>
+        <a href="project1.html">Project&nbsp;Design</a> |
+        <a href="review1.html">Peer&nbspReview&nbsp;1</a> |
+        <a href="review2.html">Peer&nbspReview&nbsp;2</a>
       </nav>
       <br>
       <nav class="menu">
