@@ -26,6 +26,10 @@ p{
     font-size: 23px;
     
 }
+img {
+    border: 2px solid #555;
+    border-radius: 15%;
+  }
 a 
 {
     color: #d93232/*#297e38*/;
@@ -67,7 +71,7 @@ div.backer
 {
     background-color: rgb(199, 222, 239);
     /*margin: ; */
-    width: 800px;
+    width: 650px;
     margin: auto;
 }
 div.stacker
@@ -77,6 +81,8 @@ div.stacker
 }
 #img-link {
     text-decoration: none;
+    border: none;
+    border-radius: none;
   }
 .cap
 {
@@ -91,6 +97,83 @@ border-bottom-right-radius: 10px;
 }
 .inliner{
     display: inline;
+}
+form 
+{
+width: 60vw;
+max-width: 500px;
+min-width: 300px;
+margin: 0 auto;
+padding-bottom: 2em;
+}
+
+fieldset {
+border: none;
+padding: 2rem 0;
+border-bottom: 3px solid #2d545e;
+}
+
+fieldset:last-of-type {
+border-bottom: none;
+}
+
+label {
+display: block;
+margin: 0.2rem 0;
+}
+.label_width {
+  width: 300px;
+  display: inline-block;
+}
+input,
+textarea,
+select {
+margin: 10px 0 0 0;
+width: 100%;
+min-height: 2em;
+}
+table, th, tr{
+margin: 0 auto;
+border: 1px solid #2d545e;
+border-radius: 10px;
+
+}
+input, textarea {
+border: 1px solid #555;
+}
+::placeholder {
+color: #FFFDD0;
+}
+.der {
+color: #2d545e;
+}
+.inline {
+width: unset;
+margin: 0 0.5em 0 0;
+vertical-align: middle;
+}
+.der {
+color: #2d545e;
+}
+input[type="reset"] {
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 2em;
+font-size: 1.1rem;
+background-color: rgb(199, 222, 239);
+border-color: #2d545e;
+min-width: 300px;
+}
+input[type="submit"] {
+display: block;
+width: 60%;
+margin: 1em auto;
+height: 2em;
+font-size: 1.1rem;
+background-color: rgb(199, 222, 239);
+border-color: #2d545e;
+min-width: 300px;
 }
 .cent
 {
