@@ -3,9 +3,12 @@
 <head>
     <title>ITIS3135 | Parth Patel's Purple Panther | Client Project | About Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet">
-<link href = "client.css" rel = "stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&family=Gugi&family=Inconsolata&family=Itim&family=Julee&family=Knewave&family=Silkscreen&family=Space+Mono&family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href = "client.css" rel = "stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="accordion_widget.js"></script>
 </head>
 <body>
     <header>
@@ -27,53 +30,61 @@
     </figure>
     <div class="contain backer" style="border:2px solid #2d545e">
     <p class="cent low_font menu">Established in 2023 by our founder Kashyapkumar and our head website developer Parth Patel,<br>'The Ultimate Guide to Learning Watches' prioritizes education over profit.</p>
-        <h3>Amazing Things about Our Site</h3>
-        <ul class="order menu">
+    <div id="sep">   
+        <h3 class="accord">Amazing Things about Our Site</h3>
+        <div>
+          <ul class="order menu">
             <li><strong>No Bias: </strong> This site is not meant to promote any one watch over the other, but rather educate you on the history of various 
                 watches, so that can make those decisions yourself with reasoning behind it.</li>
             <li><strong>Provide Unique Details:</strong> We provide information on watches that most people are unaware of such as the engineering aspects of watches.</li>
             <li><strong>Dedicated and Passionate Team:</strong> The passion our team has for the subject is shown in the amount of effort put into the site.</li>
-        </ul>
-        <form class = "menu" action="#">
-            <h3 class="cent ">Feedback Form</h2>
-            <fieldset>
-              <label for="firstname">Enter Your First Name: <input type="text" id="firstname" name="firstname" required /></label>
+          </ul>
+        </div>
+        <h3 class="accord">Feedback Form</h2>
+          <div>
+            <form class = "menu" action="#">
+              <!-- <h3 class="cent ">Feedback Form</h2> -->
+              <fieldset>
+                <label for="firstname">Enter Your First Name: <input type="text" id="firstname" name="firstname" required /></label>
+                <br>
+                <label for="lastname">Enter Your Last Name: <input type="text" id="lastname" name="lastname" required /></label>
+                <br>
+              </fieldset>
+              <fieldset>
+                <label><input name = "p" type="radio" class="inline" /> Personal Account</label>
+                <label><input name = "p" type="radio" class="inline" /> Business Account</label>
+              </fieldset>
+              <fieldset>
+                <label>Rate this Site (From 1-10): <input type="number"  min="1" max="10" /></label>
+                <br>
+                <label >What Is Your Favorite Page From This Site?
+                  <select>
+                    <option value="">(select one)</option>
+                    <option value="1">Home</option>
+                    <option value="2">Watch Mechanics</option>
+                    <option value="3">Luxury Watches</option>
+                    <option value="4">Affordable Alternatives</option>
+                    <option value="5">Slideshow</option>
+                    <option value="6">About Us</option>
+                  </select>
+                </label>
+                <br>
+                <label>If you have any issues with this site please list them below:<br>
+                  <textarea rows="3" cols="30" placeholder="I was not a fan of the..."></textarea>
+                </label>
               <br>
-              <label for="lastname">Enter Your Last Name: <input type="text" id="lastname" name="lastname" required /></label>
-              <br>
-            </fieldset>
-            <fieldset>
-              <label><input name = "p" type="radio" class="inline" /> Personal Account</label>
-              <label><input name = "p" type="radio" class="inline" /> Business Account</label>
-            </fieldset>
-            <fieldset>
-              <label>Rate this Site (From 1-10): <input type="number"  min="1" max="10" /></label>
-              <br>
-              <label >What Is Your Favorite Page From This Site?
-                <select>
-                  <option value="">(select one)</option>
-                  <option value="1">Home</option>
-                  <option value="2">Watch Mechanics</option>
-                  <option value="3">Luxury Watches</option>
-                  <option value="4">Affordable Alternatives</option>
-                  <option value="5">Slideshow</option>
-                  <option value="6">About Us</option>
-                </select>
-              </label>
-              <br>
-              <label>If you have any issues with this site please list them below:<br>
-                <textarea rows="3" cols="30" placeholder="I was not a fan of the..."></textarea>
-              </label>
-            <br>
-            <input class="der" type="reset" value="Reset" />
-            <input class="der" type="submit" value="Submit" />
-            </fieldset>
-            
-          </form>
-        <h3>Contact Information</h3>
-        <p class="cent low_font liner"><strong>Email:</strong> kpate209@uncc.edu</p>
-        <p class="cent low_font liner"><strong>Telephone Number:</strong> 678-999-8212</p>
-        <p class="cent low_font liner"><strong>Address:</strong> 10175 Weddington Rd, Concord, NC 28027</p>
+              <input class="der" type="reset" value="Reset" />
+              <input class="der" type="submit" value="Submit" />
+              </fieldset>
+              
+            </form>
+                </div>
+        <h3 class="accord">Contact Information</h3>
+          <div>
+          <p class="cent low_font liner"><strong>Email:</strong> kpate209@uncc.edu</p>
+          <p class="cent low_font liner"><strong>Telephone Number:</strong> 678-999-8212</p>
+          <p class="cent low_font liner"><strong>Address:</strong> 10175 Weddington Rd, Concord, NC 28027</p>
+          </div>
     </div>
     
 </main>

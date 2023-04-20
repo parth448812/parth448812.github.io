@@ -71,12 +71,12 @@ div.backer
 {
     background-color: rgb(199, 222, 239);
     /*margin: ; */
-    width: 650px;
+    width: 700px;
     margin: auto;
 }
 div.stacker
 {
-    width: 1000px;
+    width: 750px;
     margin: auto;
 }
 #img-link {
@@ -84,6 +84,15 @@ div.stacker
     border: none;
     border-radius: none;
   }
+.accord{
+    background-color: rgb(224, 128, 128)/*#9aa0e9*/;
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    text-align: center;
+    outline: none;
+    transition: 0.3s;
+}
 .cap
 {
     font-size: 15px;
