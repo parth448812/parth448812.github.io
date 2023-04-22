@@ -256,11 +256,6 @@ font-size: 2rem;
 border: 10px solid whitesmoke;
 border-radius: 0px;
 }
-div.justifier
-{
-text-align:justify/left/right/center;
-text-justify:values;
-}
 input[type="submit"] {
 display: block;
 width: 60%;

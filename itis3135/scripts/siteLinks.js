@@ -23,14 +23,15 @@ document.addEventListener("DOMContentLoaded", function() {
       </nav>
       <br>
       <nav class="menu">
-        <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY&nbspSite</a> |
+        <a href="stuff/H0Ri%20bLeW3b%24iTe.html">CRAPPY&nbsp;Site</a> |
         <a href="accessibility/Patel-Activity_Accessibility.html">Accessibility</a> |
         <a href="hobby">Hobby</a> |
-        <a href="Patel-Activity11/Patel-Activity11.html">Accordion&nbspWidget</a> |
-        <a href="Patel-Activity12/Patel-Activity12.html">bxSlider&nbspPlugin</a> |
-        <a href="Patel-Activity13/Patel-Activity13.html">XML&nbspto&nbspJSON</a> |
-        <a href="Patel-Activity14/Patel-Activity14.html">Load&nbspSpeaker&nbspFiles</a> |
-        <a href="Patel-Activity15/Patel-Activity15.html">Use&nbspExpanded&nbspJSON&nbspFile</a> |
+        <a href="Patel-Activity11/Patel-Activity11.html">Accordion&nbsp;Widget</a> |
+        <a href="Patel-Activity12/Patel-Activity12.html">bxSlider&nbsp;Plugin</a> |
+        <a href="Patel-Activity13/Patel-Activity13.html">XML&nbsp;to&nbsp;JSON</a> |
+        <a href="Patel-Activity14/Patel-Activity14.html">Load&nbsp;Speaker&nbsp;Files</a> |
+        <a href="Patel-Activity15/Patel-Activity15.html">Use&nbsp;Expanded&nbsp;JSON&nbsp;File</a> |
+        <a href="Patel-Activity16/Patel-Activity16.html">Flicker&nbsp;Photo&nbsp;Gallery</a> |
         <a href="client_project">Client&nbspProject</a>
         </nav>
     `;
