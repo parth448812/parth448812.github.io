@@ -82,7 +82,7 @@ div.stacker
 #img-link {
     text-decoration: none;
     border: none;
-    border-radius: none;
+/* border-radius: none; */
   }
 .accord{
     background-color: rgb(224, 128, 128)/*#9aa0e9*/;
