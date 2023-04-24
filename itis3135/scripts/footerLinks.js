@@ -14,8 +14,8 @@ document.addEventListener("DOMContentLoaded", function() {
         </p>
       </nav>
         <p>Designed by <a href = "patelswebcontinuum.com">Patel's Web Continuum </a>&copy;2023</p>
-        <p>Certified in <a href="https://www.freecodecamp.org/certification/parthpatel04/responsive-web-design">HTML/CSS</a> 
-        and <a href="https://www.freecodecamp.org/certification/parthpatel04/javascript-algorithms-and-data-structures">JS</a></p>
+        <p>Certified in <a target="_blank" href="https://www.freecodecamp.org/certification/parthpatel04/responsive-web-design">HTML/CSS</a> 
+        and <a target="_blank" href="https://www.freecodecamp.org/certification/parthpatel04/javascript-algorithms-and-data-structures">JS</a></p>
         <a id="img-link" href= "https://validator.w3.org/check?uri=referer">
         
         <img id="img-link" src="images/button-valid-html5.gif" width="88" height="31" alt="Link to HTML validator">
