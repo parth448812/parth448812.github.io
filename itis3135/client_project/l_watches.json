@@ -1,0 +1,26 @@
+{"luxurywatches":[
+	{
+		"full_name": "Audemars Piguet",
+		"caption": "Audemars Piguet Royal Oak Offshore",
+		"image": "images/ap_pic_2.jpg",
+		"bullet1": "Founded in 1875 by Jules Louis Audemars and Edward Auguste Piguet in Switzerland.",
+		"bullet2": "Their most popular model is the Royal Oak, which was first released in 1972 to combat the Quartz Crisis taking over. More information on the Quartz Crisis in the Mechanics Page.",
+        "bullet3": "The brand collection has prices that range from $25,000 to $900,000"
+	},
+	{
+		"full_name": "Patek Phillipe",
+		"caption": "Patek Phillipe Rose Gold Complications",
+		"image": "images/patek_pic_2.jpg",
+		"bullet1": "Founded in 1839 by Antoni Patek and Adrien Phillipe in Geneva, Switzerland.",
+		"bullet2": "Their most popular model is the Nautilus, which was first released in 1976 to combat the Quartz Crisis taking over. More information on the Quartz Crisis in the Mechanics Page. ",
+        "bullet3": "The brand collection has prices that range from $18,000 to $33,884,798"
+	},
+	{
+		"full_name": "Rolex",
+		"caption": "Rolex Submariner Deep Sea",
+		"image": "images/rolex_pic_2.jpg",
+		"bullet1": "Founded in 1905 by Hans Wilsdorf in London, United Kingdom.",
+		"bullet2": "Their most popular model is the Submariner, which was first released in 1953 for divers, who were looking for watches that were corrosion resistant. This watch is also the first to ever reach a depth of 100 meters, groundbreaking at the time. ",
+        "bullet3": "The brand collection has prices that range from $25,000 to $17,800,000"
+	}
+]}

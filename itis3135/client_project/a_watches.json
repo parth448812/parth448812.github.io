@@ -1,0 +1,26 @@
+{"affordablewatches":[
+	{
+		"full_name": "Omega",
+		"caption": "Omega Seamaster",
+		"image": "images/omega_pic_1.jpg",
+		"bullet1": "Founded in 1848 by Louis Brandt in La Chaux-de-Fonds, Switzerland.",
+		"bullet2": "Their most popular model is the Seamaster, which was first released in 1948 desgined for the British Royal Navy due to its unique waterproof seal. More information on the Quartz Crisis in the Mechanics Page.",
+        "bullet3": "The average price of an Omega watch is $5,000"
+	},
+	{
+		"full_name": "Tissot",
+		"caption": "Tissot Leather Le Locle",
+		"image": "images/tissot_pic_1.jpg",
+		"bullet1": "Founded in 1853 by Charles-Félicien Tissot and his son, Charles-Émile Tissot in Le Locle, Switzerland.",
+		"bullet2": "Their most popular model is the Le Locle, which was first released in 2003 to celebrate the 150th anniversary of the company.",
+        "bullet3": "The average price of a Tissot watch is around $300"
+	},
+	{
+		"full_name": "Casio",
+		"caption": "Casio G-Shock",
+		"image": "images/casio_pic_1.jpg",
+		"bullet1": "Founded in 1946 by Tadao Kashio in Tokyo, Japan.",
+		"bullet2": "Their most popular model is the G-Shock, which was first released in 1983 to accomplish a goal of creating a watch that wouldn't break, even if it fell.",
+        "bullet3": "The average price of a Casio watch is $150."
+	}
+]}
